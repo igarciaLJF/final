@@ -1,0 +1,80 @@
+/* standard elements */
+html {
+    background-color: whitesmoke;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family: Didot, serif;
+    font-size: 100%
+}
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+footer {
+    margin: 4rem;
+    border-top-width: 0.1rem;
+    border-top-style: solid;
+    border-top-color: slategrey;
+    font-size: 0.8rem;
+}
+cite {
+    margin-left: 1rem;
+    font-size: 90%;
+    font-style: italic;
+}
+img {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+section, p {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+nav {
+    background-color: lightsteelblue;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+nav ul li:hover {
+        background-color: lightskyblue;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    margin-top: 4rem;
+    border-top: 0.1rem solid slategrey;
+    border-bottom: none;
+    font-size: 0.8rem;
+}
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
